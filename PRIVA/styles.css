@@ -1,0 +1,23 @@
+/* Mengatur agar elemen html dan body memiliki tinggi penuh */
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto; /* Izinkan scroll jika perlu */
+}
+
+/* Mengatur div menjadi penuh layar */
+.full-screen {
+    width: 100%;
+    height: 100vh; /* Menggunakan tinggi viewport untuk layar penuh */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mengatur gambar agar proporsional dan bisa discroll */
+img {
+    width: 100%; /* Lebar penuh */
+    height: auto; /* Menjaga proporsi gambar */
+}
